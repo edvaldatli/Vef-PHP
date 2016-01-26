@@ -1,0 +1,14 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.card{
+
+}
+.btn-floating{
+    position: fixed;
+    bottom: 6em;
+    right: 4em;
+}
