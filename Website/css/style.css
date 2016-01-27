@@ -1,6 +1,7 @@
 /* -- DEFAULT -- */
 html{
     background-color: lightgray;
+    overflow-y:scroll;
 }
 
 /* -- NAVBAR -- */
@@ -8,9 +9,9 @@ nav{
     margin-bottom: 30px;
     background-color: black;
 }
-.brand-logo{
-    width: 2px;
-    height: 2px;
+.logo{
+    width: 60px !important;
+    height: 60px !important;
 }
 
 .card{
@@ -18,7 +19,7 @@ nav{
 }
 .btn-floating{
     position: fixed;
-    bottom: 6em;
+    top: 6.5em;
     right: 4em;
 }
 
