@@ -9,7 +9,10 @@ include "include/menu.php"
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/component.css" />
+<<<<<<< HEAD
     <script src="js/masonry.pkgd.min.js"></script>
+=======
+>>>>>>> origin/master
 </head>
 <body>
     <div class="container">
@@ -190,6 +193,18 @@ include "include/menu.php"
     <?php include 'include/footer.php'; ?>
 
     
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/AnimOnScroll.js"></script>
+    <script>
+        new AnimOnScroll( document.getElementById( 'grid' ), {
+            minDuration : 0.4,
+            maxDuration : 0.7,
+            viewportFactor : 0.2
+        } );
+    </script>
+
+    <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/imagesloaded.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/AnimOnScroll.js"></script>
