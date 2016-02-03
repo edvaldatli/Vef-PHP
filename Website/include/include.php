@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 0105982499
- * Date: 26.1.2016
- * Time: 14:13
- */
-
+    include 'title.php';
 ?>
 
 <head>
@@ -16,50 +10,16 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <title><?php echo "{$title}"; ?></title>
 </head>
 
-<ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
-</ul>
-<ul id="dropdown2" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
-</ul>
 
-<nav>
-    <div class="nav-wrapper">
-        <div class="container">
-        <a href="#" class="brand-logo"><img class="logo" src="img/logo.png"></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="#">Explore</a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Categories<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">Mobile</a></li>
-        </ul>
-        </div>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="#">Sass</a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">Mobile</a></li>
-        </ul>
-    </div>
-</nav>
 
 <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -108,3 +68,7 @@
     </div>
 </div>
     <a class="btn btn-floating btn-large waves-effect waves-light red modal-trigger" data-target="modal1"><i class="material-icons">add</i></a>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>

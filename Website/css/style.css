@@ -7,11 +7,20 @@ html{
 /* -- NAVBAR -- */
 nav{
     margin-bottom: 30px;
-    background-color: black;
+    background-color: white;
+    color: black;
 }
+nav ul li a{
+    color: black
+}
+nav i{
+    color: black
+}
+
 .logo{
-    width: 60px !important;
-    height: 60px !important;
+    margin: 2.5px;
+    width: 57.5px !important;
+    height: 57.5px !important;
 }
 
 .card{

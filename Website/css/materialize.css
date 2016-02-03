@@ -2915,15 +2915,15 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: black;
+  background-color: lightgray;
 }
 
 footer.page-footer .footer-copyright {
   overflow: hidden;
   height: 50px;
   line-height: 50px;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(0, 0, 0, 1);
+  color: black;
+  background-color: white;
 }
 
 table, th, td {
@@ -7392,13 +7392,27 @@ nav ul {
 }
 
 nav ul li {
-  transition: background-color .3s;
+  transition: background-color .2s;
   float: left;
   padding: 0;
 }
 
+nav ul li:hover {
+  background-color: #000000;
+}
+
+nav ul li a {
+  color: black;
+  transition: color .6s;
+}
+
+nav ul li a:hover {
+  color: white;
+  transition: color .2s;
+}
+
 nav ul li.active {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav ul a {
