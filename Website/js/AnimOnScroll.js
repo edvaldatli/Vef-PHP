@@ -106,15 +106,8 @@
 					self.items.forEach( function( el, i ) {
 						if( inViewport( el ) ) {
 							self._checkTotalRendered();
-<<<<<<< HEAD
 							classie.add( el, 'shown' );
-=======
-<<<<<<< HEAD
 							classie.add( el, 'animate' );
-=======
-							classie.add( el, 'shown' );
->>>>>>> origin/master
->>>>>>> origin/master
 						}
 					} );
 
