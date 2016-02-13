@@ -15,7 +15,7 @@
     <script src="js/masonry.pkgd.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="content">
         <ul class="grid effect-3" id="grid">
             <li><a href="http://drbl.in/fWMM"><img src="images/1.jpg"></a></li>
             <li><a href="http://drbl.in/fWPV"><img src="images/3.jpg"></a></li>

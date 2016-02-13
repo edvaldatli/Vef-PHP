@@ -1,10 +1,9 @@
 <?php
 
 ?>
-    <footer class="page-footer">
-        <div class="footer-copyright">
+    <footer>
             <div class="container">
-                <p><?php
+                <span class="footertext"><?php
                     $startYear = 2016;
                     $thisYear = date('Y');
                     if ($startYear == $thisYear) {
@@ -12,8 +11,6 @@
                     } else {
                         echo "{$startYear}&ndash;{$thisYear}";
                     }
-                    ?> Eðvald Atli</p>
-                <span class="black-text text-lighten-4 right" "></span>
+                    ?> Eðvald Atli</span>
             </div>
-        </div>
     </footer>

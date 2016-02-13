@@ -32,7 +32,7 @@
                 <li><a href="index.php" <?php if ($currentPage == 'index.php') {echo 'id="here"';} ?> >Explore</a></li>
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Categories<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="profile.php" <?php if ($currentPage == 'profile.php') {echo 'id="here"';} ?> >Profile</a></li>
-                <li><a href="#">Mobile</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </div>
         <ul class="side-nav" id="mobile-demo">
