@@ -11,7 +11,6 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -67,7 +66,7 @@
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
     </div>
 </div>
-    <a class="btn btn-floating btn-large waves-effect waves-light red modal-trigger" data-target="modal1"><i class="material-icons">add</i></a>
+<a class="btn btn-floating btn-large waves-effect waves-light red modal-trigger" data-target="modal1"><i class="material-icons">add</i></a>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
