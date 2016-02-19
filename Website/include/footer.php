@@ -1,5 +1,5 @@
-<?php
-
+﻿<?php
+ echo "elelel";
 ?>
     <footer>
             <div class="container">
