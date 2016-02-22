@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-    include "include/include.php";
+    require "include/include.php";
     include "include/menu.php";
 ?>
 
@@ -153,8 +153,6 @@
         </div>
     </div>
     <a class="btn btn-floating btn-large waves-effect waves-light red modal-trigger" data-target="modal1"><i class="material-icons">add</i></a>
-
-    <?php include 'include/footer.php'; ?>
 
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/imagesloaded.js"></script>

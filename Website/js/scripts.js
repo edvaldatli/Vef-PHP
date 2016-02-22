@@ -10,3 +10,14 @@ $( document ).ready(function(){
     document.getElementById('here').style.backgroundColor = "rgba (255, 255 ,255 , 0.2)";
     document.getElementById('here').style.color = "rgba (0, 0 ,0 , 1)";
 });
+
+
+(function buttonReminder(){
+    var randSeconds = Math.ceil(Math.random()*5)+2; // max 7 sec, min 3 sec
+    var randDelay = randSeconds*1000;
+
+    $(document).delay(randDelay), function(){
+
+    }
+}());
+
